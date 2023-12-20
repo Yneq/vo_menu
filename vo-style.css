@@ -1,0 +1,63 @@
+@page {
+    size: A4;
+  }
+body {
+    width: 210mm;
+    margin: 0;
+  }
+.frame {
+    display: flex;
+}
+.name {
+    font-size: larger;
+    font-weight: bold;
+    width:100%;
+    margin-left:70px;
+    margin-bottom:5px;
+
+}
+.materials {
+    font-size: 10px;
+    width:110%;
+    margin-bottom: 5px;
+}
+h1 {
+    font-family: "Apple Chancery", cursive;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
+h1 img {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.paper {
+    background-color: rgb(218, 212, 206);
+}
+hr {
+    height:2px;
+    color:black;
+    background-color: black;
+    border-color: black;
+    width: 77%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: "Apple Chancery", cursive;
+    font-size: 250%;
+    margin-left: 70px;
+}
+.bottom-line {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 45px; 
+    height: 2px;
+    width: 50%;
+  }
+.bottom-line img {
+    margin-bottom: 100px;
+}
